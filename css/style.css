@@ -6,6 +6,9 @@
     border: 0;
     box-sizing:border-box;
 }
+ p{
+    line-height: 1.5;
+ }
 
 img {
     width: 200px;
@@ -61,4 +64,18 @@ nav {
             color: #EDECE7;
             padding: 10px 20px;
         }
+}
+.info-text{
+    background-color: #EDECE7;
+    color:#033A1E;
+    text-align: center;
+    & .content{
+        padding: 20px;
+    }
+    & h2{
+        font-size: 1.4rem;
+    }
+    & p{
+        margin: 10px 0;
+    }
 }
