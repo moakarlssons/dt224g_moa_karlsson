@@ -2,7 +2,9 @@
 * {
     padding: 0;
     margin: 0;  
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family: Arial, Helvetica, sans-serif; 
+    border: 0;
+    box-sizing:border-box;
 }
 
 img {
@@ -36,4 +38,27 @@ nav {
         border: 0.5px solid #033A1E;
         padding: 10px 40px;
     }
+}
+.hero-section{
+    background-color: #7AA18D;
+    color:#EDECE7;
+    text-align: center;
+    & .content{
+        padding: 20px;
+    }
+    & img{
+        width: 100%;
+    }
+    & h1{
+        font-size: 1.4rem;
+    }
+    & p{
+        margin: 10px 0;
+    }
+     & button{
+            background-color: #033A1E;
+            font-weight: bold;
+            color: #EDECE7;
+            padding: 10px 20px;
+        }
 }
