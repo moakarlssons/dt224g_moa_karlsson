@@ -1,0 +1,39 @@
+/* HELA DOKUMENTET */
+* {
+    padding: 0;
+    margin: 0;  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+img {
+    width: 200px;
+}
+
+header {
+    background-color: #7AA18D;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    
+    & img{
+        width: 50px;
+    }
+    & span{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 1.1rem;
+
+    }
+}
+nav {
+    background-color: #EDECE7;
+    color:#033A1E;
+    
+    & li{
+        border: 0.5px solid #033A1E;
+        padding: 10px 40px;
+    }
+}
