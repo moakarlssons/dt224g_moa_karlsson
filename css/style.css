@@ -33,7 +33,7 @@ header {
 
     }
 }
-nav {
+.header-nav {
     background-color: #EDECE7;
     color:#033A1E;
     
@@ -107,4 +107,33 @@ width: 100%;
     padding: 20px;
 
 }
+}
+.visit {
+    background-color: #EDECE7;
+    color: #033A1E;
+     text-align: center;
+    padding: 20px;
+ 
+    & h2{
+        font-size: 1.4rem;
+    }
+    & p{
+        margin: 10px 0;
+    }
+      & button{
+            background-color: #033A1E;
+            font-weight: bold;
+            color: #EDECE7;
+            padding: 10px 20px;
+        }
+}
+.container {
+    background-color: #7AA18D;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    & img{
+        width: 60px;
+    }
 }
