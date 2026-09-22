@@ -108,11 +108,12 @@ width: 100%;
 
 }
 }
+/* AVSLUTANDE SEKTION */
 .visit {
     background-color: #EDECE7;
     color: #033A1E;
      text-align: center;
-    padding: 20px;
+    padding: 30px;
  
     & h2{
         font-size: 1.4rem;
@@ -127,13 +128,35 @@ width: 100%;
             padding: 10px 20px;
         }
 }
-.container {
+/* FOOTER */
+footer {
     background-color: #7AA18D;
     color: #ffffff;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+
 
     & img{
-        width: 60px;
+        width: 70px;
+        margin-bottom: 20px;
+    }
+
+    & .slogan {
+        text-align: center;
+    }
+
+    & .links{
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 20px;
+        margin-top: 30px;
+        line-height: 1.6rem;
+
+        & a{
+            color: #ffffff;
+        }
+
+        & li {
+            list-style-type: none;
+        }
     }
 }
