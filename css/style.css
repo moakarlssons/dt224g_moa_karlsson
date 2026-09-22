@@ -41,7 +41,44 @@ header {
         border: 0.5px solid #033A1E;
         padding: 10px 40px;
     }
+
+    & ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & a{
+        color:#033A1E;
+            text-decoration: none; 
+    }
 }
+ /* DESKTOP VY NAV */
+@media (min-width: 768px){
+    header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    }
+    .header-nav {
+        background-color: #7AA18D;
+        
+        & ul {
+            flex-direction: row;
+            gap: 30px;
+        }
+        & li {
+            list-style-type: none;
+            border: 0;
+            padding: 0;
+        }
+        & a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}
+
 /* HERO SECTION */
 .hero-section{
     background-color: #7AA18D;
